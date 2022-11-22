@@ -185,6 +185,7 @@
 
 #urlbar {
     max-height: 22px !important;
+    margin-top: 1px !important;
 }
 
 .tab-background {
@@ -195,12 +196,14 @@
     height: 25px !important;
 }
 
-.tab-close-button,
-.tab-icon-image,
-.tab-label {
-    margin-top: -15px !important;
+.tab-icon-image {
+    margin-top: -14px !important;
     max-height: 12px !important;
     width: auto !important;
+}
+
+.tab-label {
+    margin-top: -15px !important;
 }
 
 /* window, */
@@ -518,6 +521,7 @@ window,
 .tab-close-button, .tab-close-button:hover {
     outline: none !important;
     margin-inline: -10px !important;
+    margin-top: -15px !important;
 }
 
 .titlebar-button>.toolbarbutton-icon {
